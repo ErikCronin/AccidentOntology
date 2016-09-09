@@ -1,0 +1,28 @@
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1>
+
+Declaration(Class(<http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#Accident>))
+Declaration(Class(<http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#ChemicalAccident>))
+SubClassOf(<http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#ChemicalAccident> <http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#Accident>)
+Declaration(Class(<http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#ElectricalAccident>))
+SubClassOf(<http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#ElectricalAccident> <http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#Accident>)
+Declaration(Class(<http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#FireAccident>))
+SubClassOf(<http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#FireAccident> <http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#Accident>)
+Declaration(Class(<http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#InvestigatorPerson>))
+SubClassOf(<http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#InvestigatorPerson> <http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#Person>)
+Declaration(Class(<http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#KineticAccident>))
+SubClassOf(<http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#KineticAccident> <http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#Accident>)
+Declaration(Class(<http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#LiquidAccident>))
+SubClassOf(<http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#LiquidAccident> <http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#Accident>)
+Declaration(Class(<http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#Person>))
+Declaration(Class(<http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#VictimPerson>))
+SubClassOf(<http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#VictimPerson> <http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#Person>)
+Declaration(Class(<http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#WitnessPerson>))
+SubClassOf(<http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#WitnessPerson> <http://www.semanticweb.org/gypsywanderer/ontologies/2016/8/ErikCroninP1#Person>)
+)
